@@ -5,9 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Utils">
-      <UniqueIdentifier>{70bf52f9-7060-4978-a72e-5e0c18274397}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Controllers">
       <UniqueIdentifier>{61d85bdc-c329-4c1c-9811-3bf799f3090a}</UniqueIdentifier>
     </Filter>
@@ -22,6 +19,9 @@
     </Filter>
     <Filter Include="Events\Base\Night">
       <UniqueIdentifier>{bdfca3e2-9d75-49d7-98ad-a443b7e8adcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{70bf52f9-7060-4978-a72e-5e0c18274397}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

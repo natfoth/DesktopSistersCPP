@@ -85,7 +85,7 @@ void Sisters::Init()
 	auto currentTime = Util::getCurrentDateTime();
 	_renderController->AddSceneToQueue(currentTime, "Wallpaper.bmp");
 
-	sceneQueueTime = 1 * 60000; // Convert to milliseconds
+	sceneQueueTime = _configuration->GetUpdateTime() * 60000; // Convert to milliseconds
 
 #if defined(TESTALL)
 	auto baseTimeSister = Util::getCurrentDateTime();

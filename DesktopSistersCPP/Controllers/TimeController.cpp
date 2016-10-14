@@ -37,7 +37,7 @@ void TimeController::Update()
 /// Is the time currently in twilight?
 /// </summary>
 /// <returns></returns>
-bool TimeController::IsTwilight()
+bool TimeController::IsTwilight() const
 {
 	auto sunPos = GetSunPos();
 	return (get<0>(sunPos) > -6 && get<1>(sunPos) < 0);
@@ -47,7 +47,7 @@ bool TimeController::IsTwilight()
 /// Uses the passed in time as well as the SunRise and SunSet to determine if it is Day time
 /// </summary>
 /// <returns>returns if it is Night Time</returns>
-bool TimeController::IsDayTime()
+bool TimeController::IsDayTime() const
 {
 	return difftime(Util::makeTime(dateTime), Util::makeTime(sunRise)) > 0 && difftime(Util::makeTime(dateTime), Util::makeTime(sunSet)) < 0;
 }
@@ -56,7 +56,7 @@ bool TimeController::IsDayTime()
 /// Simply returns if it is Day time or not
 /// </summary>
 /// <returns>returns if it is Day Time</returns>
-bool TimeController::IsNightTime()
+bool TimeController::IsNightTime() const
 {
 	return !IsDayTime();
 }
@@ -65,7 +65,7 @@ bool TimeController::IsNightTime()
 /// Calculates the sun Positions based on Latitude and Longitude
 /// </summary>
 /// <returns>The sun position's X and Y position</returns>
-tuple<float, float> TimeController::GetSunPos()
+tuple<float, float> TimeController::GetSunPos() const
 {
 	return SunPosition::CalculateSunPosition(dateTime, _latitude, _longitude);
 }

@@ -74,25 +74,25 @@ public:
 	/// Is the time currently in twilight?
 	/// </summary>
 	/// <returns></returns>
-	bool IsTwilight();
+	bool IsTwilight() const;
 
 	/// <summary>
 	/// Uses the passed in time as well as the SunRise and SunSet to determine if it is night time
 	/// </summary>
 	/// <returns>returns if it is Night Time</returns>
-	bool IsNightTime();
+	bool IsNightTime() const;
 
 	/// <summary>
 	/// Simply returns if it is night time or not
 	/// </summary>
 	/// <returns>returns if it is Day Time</returns>
-	bool IsDayTime();
+	bool IsDayTime() const;
 
 	/// <summary>
 	/// Calculates the sun Positions based on Latitude and Longitude
 	/// </summary>
 	/// <returns>The sun position's X and Y position</returns>
-	tuple<float, float> GetSunPos();
+	tuple<float, float> GetSunPos() const;
 
 
 private:

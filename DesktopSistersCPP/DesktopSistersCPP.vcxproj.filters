@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{70bf52f9-7060-4978-a72e-5e0c18274397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{61d85bdc-c329-4c1c-9811-3bf799f3090a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{e421a770-e4df-47fd-80ca-ab0254954fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Base">
+      <UniqueIdentifier>{a9bdbc63-14d8-4fbc-b60d-ac96aded6851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Base\Day">
+      <UniqueIdentifier>{0b16324a-b6b4-457e-b4fa-85f6ac11c0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Base\Night">
+      <UniqueIdentifier>{bdfca3e2-9d75-49d7-98ad-a443b7e8adcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sisters.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Utils\Event.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\EventTags.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Util.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SunPosition.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ImageLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Imager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Configuration.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\GoogleLocationServices.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\EventController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\RenderController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\TimeController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Day\BaseDayLandscape.h">
+      <Filter>Events\Base\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\BaseCanvas.h">
+      <Filter>Events\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Day\BaseDayBackground.h">
+      <Filter>Events\Base\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ImgProc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Day\BaseDaySun.h">
+      <Filter>Events\Base\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Day\BaseDayClouds.h">
+      <Filter>Events\Base\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Day\BaseCelestia.h">
+      <Filter>Events\Base\Day</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseNightBackground.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseNightLandscape.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseNightMoon.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseFallingStar.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseLuna.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseNightClouds.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseNightStars.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Base\Night\BaseNightTriangle.h">
+      <Filter>Events\Base\Night</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sisters.cpp" />
+    <ClCompile Include="DesktopSistersCPP.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Utils\Event.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ImageLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Imager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Configuration.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\GoogleLocationServices.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\RenderController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\EventController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\TimeController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Day\BaseDayLandscape.cpp">
+      <Filter>Events\Base\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\BaseCanvas.cpp">
+      <Filter>Events\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Day\BaseDayBackground.cpp">
+      <Filter>Events\Base\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Day\BaseDaySun.cpp">
+      <Filter>Events\Base\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Day\BaseDayClouds.cpp">
+      <Filter>Events\Base\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Day\BaseCelestia.cpp">
+      <Filter>Events\Base\Day</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseNightBackground.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseNightLandscape.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseNightMoon.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseFallingStar.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseLuna.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseNightClouds.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseNightStars.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Base\Night\BaseNightTriangle.cpp">
+      <Filter>Events\Base\Night</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DesktopSistersCPP.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
